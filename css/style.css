@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+#classifiedMenu {
+	float:left;
+	height:190px;
+	background-color:#B7B9FF;
+	width: 600px;
+	//background-color:#CCCCCC;
+	//border: thin solid #333333;
+}
+			  
+.menuChar{
+	float:left;
+	text-align:center;
+	//border: thin solid #333333;
+	width: 16px;
+	height:20px;
+	background-color:#000066;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-top: 1px;
+
+}	
+.menuItem{
+					//border: thin solid #333333;
+	float:left;
+	width : 180px;
+	height:21px;
+	//background-color:#CCFF99;
+	text-align:left;
+	color:#FF0000;
+	//padding-bottom: 3px;					
+	//padding:1px;
+}
+form
+{
+	color:#FFFFFF;
+	font-size:12px
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.header {
+	margin:0 auto;
+	background-color: #01265d;
+	width: 100%;
+	height: 24px;
+}
+
+.header a, #search a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+.header a:hover {
+	height:24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color:#000099;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 3px;	
+
+}
+
+#contact,#facebook,#twitter,#orkut{
+margin-right:1px;
+  background-color:#FFFFFF;
+}
+#contact:hover,#facebook:hover,#twitter:hover,#orkut:hover
+{
+background-color:#EEEEEE;
+margin:2px;
+}
+
+.content {
+	height: 600px;
+	width: 964px;
+	border: 3px outset #333333;
+	margin:0 auto;
+	padding:10px;
+	background-color: #FFFFFF;
+
+}
+
+
+#sddm{	
+    margin:0 0 0 0px;
+	padding: 0;
+	z-index: 30;
+	width:164px
+}
+
+#sddm li{	
+    width:164px;
+	margin:0px;
+	padding: 5px;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#sddm li a{	
+	display: block;
+	margin:0 0 0 1px;
+	padding-left: 0px;
+	color: #000;
+	text-align: left;
+	text-decoration: none}
+
+#sddm li a:hover{
+	background: #fff;
+}
+
+#sddm div{	
+    position: absolute;
+	visibility: hidden;
+	margin-top:3px;
+	margin-left:8px;
+	padding: 0;
+	background: #EFEFEF;
+	border: 1px solid #4aa7f7;
+}
+
+#sddm div a{	
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 2px 3px;
+	white-space: wrap;
+	text-align: left;
+	text-decoration: none;
+	background:#FFFFFF ;
+	//color:  black;
+	font: 11px arial;
+	font-weight:bolder;
+}
+
+#sddm div a:hover
+{	
+	    background: #4aa7f7;
+}
+
+.clearfix {
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+}
+#search_result{
+width:500px;
+float:left;
+}
+#search_result .item{
+	font-size:14px;
+	border-top: #124189 thin solid;
+	border-radius:10px 10px 0px 0px;
+	-moz-border-radius:10px 10px 0px 0px; /* Firefox 3.6 and earlier */
+	-o-border-radius:10px  10px 0px 0px; /* Opera Browser*/
+	width:500px;
+	margin:5px 0px;
+	z-index:0;
+}
+#search_result .item .title{
+color:#FFFFFF;
+font-weight:bold;
+font-size:18px;
+ border-radius:6px 6px 0px 0px;
+-moz-border-radius:6px 6px 0px 0px; /*Firefox 3.6 and earlier  */
+-o-border-radius:6px 6px 0px 0px;
+margin:0px;
+padding: 2px 0 3px 10px;
+background-color:#124189;
+}
+#search_result .iteminfo{
+	border-bottom: #124189 thin solid;
+	border-left:#124189 thin solid;
+	border-right :#124189 thin solid;
+	position:relative;
+	height:135px;
+	border-radius:0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px; /* Firefox 3.6 and earlier */
+	-o-border-radius: 0px 0px 10px 10px; /* Opera Browser*/
+}
+#search_result .item .contact{
+position:absolute;
+bottom:0px;
+right: 3px;
+}
+#search_result .item a:hover{
+color:red;
+text-decoration:blink;
+}
+
+#search_result .item img{
+padding:3px;
+}
+
+#search_result .item .list-action,
+#search_result .item a{
+font-weight:bolder;
+font-size:12px;
+color:#124189;
+}
+#divhdr{
+	margin: 0 auto; 
+	width:1000px;
+	clear:both;
+	height:150px;
+}
+#divhdr #search{
+	float:right; 
+	width:850px; 
+	height:150px;	
+	position: relative;
+	background-color:#124088; 
+}
+
+#divhdr #search .left{
+	color:#FFFFFF; font:verdana; font-size:12px;
+	position: relative;
+	left:40px;
+	width: 550px;
+	padding-top: 10px;
+
+}
+
+#divhdr #search input{
+	border-radius:10px; 
+	background-color:#FFFFFF;
+	color:#003399;
+}
+
+
+.login
+{
+	position:relative;	
+	float:right;  
+	top:5px; 
+	right:10px; 
+}
+
+.ads
+{
+	float:right;  
+	position:absolute; 
+	bottom:0; 
+	right:10px;
+
+}
